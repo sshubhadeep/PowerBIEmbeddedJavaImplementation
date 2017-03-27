@@ -10,5 +10,14 @@
     6. Generate a report using the same tool using the saved file.
     7. Use the current application to create a dynamic web project (add commons-lang3-3.5.jar if needed).
     8. View your report from iFrame after deploying the application.
+
+To run the application for existing report
+  
+    1. populate MyReport.java (Servlet) with the following details
+    workspaceid="Your Workspace Id";
+		reportId="Your Report Id";
+		workspaceCollectionName="Your Workspace Collection Name";
+		accessToken="Your Access Token From Azure Portal";
+    2. Run As -> Run on server
     
-More detailed instructions will be added later. In case of emergency contact me at sshubhadeep@gmail.com
+In case of further help contact me at sshubhadeep@gmail.com
