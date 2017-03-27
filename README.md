@@ -1,6 +1,13 @@
+<!--
+  Title: PowerBI Embedded Java Implementation
+  Description: A PowerBI Embedded Java Implementation  to diplay a report in iFrame.
+  Author: sshubhadeep
+  --> 
+
+
 # PowerBI-Embedded-Java-Implementation
   
-  Steps
+ ## Steps
   
     1. Create Azure SQL in Azure Portal
     2. Use PowerBI Desktop to load data from the database created in Azure Portal.
@@ -11,7 +18,7 @@
     7. Use the current application to create a dynamic web project (add commons-lang3-3.5.jar if needed).
     8. View your report from iFrame after deploying the application.
 
-To run the application for existing report
+  ## To run the application for existing report
   
     1. populate MyReport.java (Servlet) with the following details
     	workspaceid="Your Workspace Id";
