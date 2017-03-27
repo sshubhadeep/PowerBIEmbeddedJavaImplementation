@@ -14,7 +14,7 @@
 To run the application for existing report
   
     1. populate MyReport.java (Servlet) with the following details
-    workspaceid="Your Workspace Id";
+    		workspaceid="Your Workspace Id";
 		reportId="Your Report Id";
 		workspaceCollectionName="Your Workspace Collection Name";
 		accessToken="Your Access Token From Azure Portal";
